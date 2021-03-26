@@ -1,0 +1,74 @@
+.history-box {
+  padding-right: 10px;
+  margin-right: 350px;
+  min-height: 100vh;
+  width: 100%;
+  font-weight: 600;
+}
+
+.history-box .history-title {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+
+.history-box .history-bars-title {
+  margin: 20px;
+}
+
+.history-box .history-bars-content {
+  height: 60px;
+  padding: 0px 15px;
+  border-radius: 12px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.267);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.267);
+}
+
+.history-box .history-bars-content .title {
+  width: 130px;
+}
+
+.history-box .history-bars-content .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.history-box .history-bars-content .date div {
+  margin-left: 20px;
+}
+
+.history-box .list {
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.history-box .in {
+  border: 2px solid green;
+  color: green;
+}
+
+.history-box .not-in {
+  border: 2px solid red;
+  color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .history-box {
+    margin-right: 0px;
+  }
+}
+/*# sourceMappingURL=history.css.map */

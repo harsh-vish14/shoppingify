@@ -1,0 +1,72 @@
+.stats-box {
+  padding-right: 10px;
+  width: 100%;
+  margin-right: 350px;
+  min-height: 100vh;
+}
+
+.stats-box .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats-box .title .delete {
+  cursor: pointer;
+  font-size: 15px;
+  background-color: red;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.185);
+          box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.185);
+}
+
+.stats-box .stats-bars .title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 40px;
+}
+
+.stats-progress-bar {
+  height: 6px;
+  width: 332px;
+  background-color: #c5c5c5;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.stats-progress-bar .indicator {
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 10px;
+  height: 6px;
+}
+
+.bar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 332px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 800px) {
+  .stats-box {
+    margin-right: 0px;
+  }
+}
+
+.bars {
+  margin: 30px;
+}
+/*# sourceMappingURL=stats.css.map */

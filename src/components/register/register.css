@@ -1,0 +1,96 @@
+.register-main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 900;
+  font-size: large;
+}
+
+.register-main .google-login-btn {
+  cursor: pointer;
+  background-color: #3475df;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+  position: relative;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.register-main .google-login-btn::after {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.582);
+  height: 70%;
+  width: 1px;
+  border-radius: 5px;
+  left: 37px;
+  position: absolute;
+}
+
+.register-main .google-login-btn::before {
+  content: '';
+  position: absolute;
+  -webkit-transition: .2s;
+  transition: .2s;
+  top: 5px;
+  left: 5px;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #3476dfa9;
+  height: 100%;
+  width: 100%;
+}
+
+.register-main .google-login-btn:hover {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.register-main .google-login-btn:hover::before {
+  opacity: 1;
+}
+
+.register-main .google-login-btn:active {
+  -webkit-transition: .2s;
+  transition: .2s;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+.register-main .google-login-btn:active::before {
+  opacity: 0;
+}
+
+.register-main .google-logo {
+  font-size: 25px;
+}
+/*# sourceMappingURL=register.css.map */
