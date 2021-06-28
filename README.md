@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://https://shoppingify-react.web.app/">
+    <a href="https://shoppingify-react.web.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://github.com/harsh-vish14/shoppingify-react-app">
+    <a href="https://github.com/harsh-vish14/shoppingify-react-app">
       Solution
     </a>
     <span> | </span>
